@@ -9,12 +9,15 @@
  Padding="10">
         <Label Text="Sistema de Login"
  HorizontalOptions="Center" />
+        
         <Label Text="Usuário:" />
         <Entry x:Name="txt_usuario" />
+        
         <Label Text="Senha:" />
         <Entry x:Name="txt_senha" IsPassword="True" />
+        
         <Button Text="Entrar"
- Clicked="Button_Clicked"
- HorizontalOptions="Center" />
+                Clicked="Button_Clicked"
+                HorizontalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage> 
